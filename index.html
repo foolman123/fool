@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box_big {
+        width: 100%;
+        height: 1550px;
+        background-color: #84959d;
+      }
+      .box_center {
+        margin: 0 auto;
+        width: 800px;
+        height: 1550px;
+        background-color: white;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .box_img1 {
+        width: 800px;
+        height: 200px;
+      
+        text-align: center;
+      }
+      .box_img1 > img {
+        width: 60px;
+        height: 60px;
+        line-height: 200px;
+        margin-top: 80px;
+        
+      }
+      @media screen and (min-width:700px){
+        .box_img1 > img {
+        width: 200px;
+        height: 200px;
+        line-height: 200px;}
+}
+
+      .img1 {
+        width: 100%;
+        height: 24px;
+      }
+      .box_img2 {
+        width: 100%;
+        height: 560px;
+        background-image: url(https://lingjulidigital.com/wp-content/uploads/2023/12/new-year1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 560px;
+        background-position-y: center;
+        background-position-x: center;
+        margin: 0 auto;
+      }
+
+      .box_img2_shadow > img {
+        width: 100%;
+        height: 24px;
+        padding-top: 18px;
+      }
+      .box_black {
+        width: 100%;
+        height: 600px;
+        border: 3px solid black;
+        margin-top: 36px;
+        padding-top: 18px;
+      }
+      h1 {
+        padding-left: 40px;
+      }
+      p {
+        font-size: 18px;
+        padding-left: 40px;
+      }
+      a {
+        color: red;
+        padding-left: 40px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box_big">
+      <div class="box_center">
+        <div class="box_img1">
+          <img
+            src="https://lingjulidigital.com/wp-content/uploads/2023/12/a27e4fdf-e3c2-493d-b1d5-c5a6fccf1036.png"
+            alt=""
+          />
+        </div>
+        <div class="box_img1_shadow">
+          <img
+            class="img1"
+            src="https://lingjulidigital.com/wp-content/uploads/2023/12/bottom_shadow_444.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="box_img2"
+          onclick="window.location.href='https://www.gomybox.com/';return false"
+        >
+        </div>
+        <div class="box_img2_shadow">
+          <img
+            src="https://lingjulidigital.com/wp-content/uploads/2023/12/bottom_shadow_444.png"
+            alt=""
+          />
+        </div>
+        <div class="box_black">
+          <h1>NewYear Event is about to start</h1>
+          <p>*Final Carnival!</p>
+          <p>*Extra 10% bonus.</p>
+          <p>*Corresponding free box rewards for large amount of top-up.</p>
+          <p>*Hurry up now!</p>
+          <p>*Enjoy the last surprise!</p>
+          <br />
+          <p>Please refer to more details here:</p>
+          <a href="https://www.gomybox.com/">https://www.gomybox.com/</a>
+          <p>We wish you a Happy & Lucky NewYear!</p>
+          <p>Best Regards,</p>
+          <p>UnBox</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
